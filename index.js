@@ -1,4 +1,4 @@
-const path = require('path');
+const path = require('path');  //The Path module provides a way of working with directories and file paths.
 const express = require('express');
 const dotenv = require('dotenv').config();
 const port = process.env.PORT || 5000;
